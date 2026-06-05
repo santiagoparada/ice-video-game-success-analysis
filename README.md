@@ -1,4 +1,4 @@
-# Video Game Sales Strategy Analysis
+# Video Game Market Analysis for Advertising Strategy
 
 Exploratory data analysis project for ICE, an online video game retailer. The notebook studies historical video game sales through 2016 to identify platform, genre, regional, score, and ESRB rating patterns that can inform advertising planning for 2017.
 
@@ -61,6 +61,21 @@ The notebook follows a standard EDA workflow:
 - Compare user-score distributions with statistical tests.
 - Review ESRB rating patterns across regions.
 
+## Skills Demonstrated
+
+- Exploratory Data Analysis (EDA)
+- Data Cleaning and Validation
+- Feature Engineering
+- Statistical Hypothesis Testing
+- Correlation Analysis
+- Business-Oriented Data Analysis
+- Data Visualization
+- pandas
+- NumPy
+- Seaborn
+- SciPy
+- Jupyter Notebook
+
 ## Key Findings
 
 - Sales are historically concentrated in major platform families such as PlayStation, Xbox, Wii, DS, and PC.
@@ -69,6 +84,15 @@ The notebook follows a standard EDA workflow:
 - Platform and Shooter genres show stronger per-title performance.
 - Regional demand patterns differ meaningfully, especially between Japan and Western markets.
 - Critic scores, user scores, and ESRB ratings are useful context, but they should not be treated as standalone sales predictors.
+
+## Statistical Analysis
+
+The project includes:
+
+- Correlation analysis between review scores and sales.
+- Welch's t-test comparing Xbox One and PC user scores.
+- Welch's t-test comparing Action and Sports user scores.
+- Business interpretation of statistical significance and market relevance.
 
 ## Reproducibility
 
@@ -114,3 +138,5 @@ See [reports/execution_report.md](reports/execution_report.md) for the final exe
 - Seaborn
 - SciPy
 - Jupyter Notebook
+- Git
+- GitHub
